@@ -26,7 +26,7 @@ If you'd like to explore any specific project, follow these steps:
 git clone https://github.com/your-username/responsive-web-design-projects.git
 ```
 
-Navigate to the project directory.
+2. Navigate to the project directory.
 
 ```
 cd responsive-web-design-projects/ProjectName

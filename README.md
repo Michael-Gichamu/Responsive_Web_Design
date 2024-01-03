@@ -29,7 +29,7 @@ git clone https://github.com/your-username/responsive-web-design-projects.git
 2. Navigate to the project directory.
 
 ```
-cd responsive-web-design-projects/ProjectName
+cd Responsive-Web-Design/ProjectName
 ```
 
 Open the `index.html` file in your preferred web browser.

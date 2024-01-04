@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technical documentation page">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+            <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+            <li><a class="nav-link" href="#Conditional_Statements_(if...else)">Conditional Statements (if...else)</a></li>
+            <li><a class="nav-link" href="#Loops_(while_and_for)">Loops (while and for)</a></li>
+            <li><a class="nav-link" href="#Functions">Functions</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Python is a powerful and versatile programming language celebrated for its readability, simplicity, and
+                    flexibility.
+                    Originally created by Guido van Rossum in the late 1980s, Python has since evolved into a dynamic
+                    language that caters to a broad range of applications.
+                    Its design philosophy prioritizes code readability, making it an excellent choice for both beginners and
+                    experienced developers.
+                </p>
+                <p>
+                    The key features that make Python a go-to choice for a myriad of applications:
+                <ul>
+                    <li>
+                        <strong>Versatility:</strong>
+                        Python is a versatile language that supports multiple programming paradigms, including procedural,
+                        object-oriented, and functional programming. This versatility enables developers to choose the
+                        approach that best suits their project requirements.
+                    </li>
+                    <li>
+                        <strong> Readability:</strong>
+                        One of Python's most distinctive features is its emphasis on readability. The language uses a clean
+                        and straightforward syntax, utilizing indentation to define code blocks. This design choice promotes
+                        code readability and reduces the likelihood of syntax errors, contributing to a more maintainable
+                        and understandable codebase.
+                    </li>
+                    <li>
+                        <strong>High-Level Language:</strong>
+                        Python is a high-level programming language, which means it provides abstraction from low-level
+                        details like memory management and hardware interactions. This abstraction simplifies the coding
+                        process and allows developers to focus on solving problems rather than dealing with intricate
+                        system-level complexities.
+                    </li>
+                    <li>
+                        <strong>Community and Ecosystem:</strong>
+                        Python has a vibrant and active community of developers worldwide. This community-driven approach
+                        fosters collaboration, knowledge-sharing, and continuous improvement of the language. Python's
+                        package ecosystem, including the Python Package Index (PyPI), provides a vast collection of
+                        libraries and frameworks that enhance the language's capabilities.
+                    </li>
+                    <li>
+                        <strong>Compatibility:</strong>
+                        Python is designed to be platform-independent, meaning Python code can run on various operating
+                        systems with minimal modifications. This cross-platform compatibility enhances the portability of
+                        Python applications and contributes to its popularity in diverse computing environments.
+                    </li>
+                </ul>
+                </p>
+                <p>Applications:
+                <ul>
+                    <li>
+                        <strong>Web Development:</strong>
+                        Python is widely used for developing web applications and websites. Popular web frameworks like
+                        Django and Flask simplify the process of building scalable and maintainable web solutions.
+                    </li>
+                    <li>
+                        <strong>Data Analysis:</strong>
+                        Python is a preferred language for data analysis and visualization. Libraries such as Pandas, NumPy,
+                        and Matplotlib provide powerful tools for processing and visualizing data.
+                    </li>
+                    <li>
+                        <strong>Artificial Intelligence and Machine Learning:</strong>
+                        Python is a leading language in the field of artificial intelligence and machine learning.
+                        Frameworks like TensorFlow and PyTorch enable developers to build and train sophisticated machine
+                        learning models.
+                    </li>
+                    <li>
+                        <strong>Scientific Computing:</strong>
+                        Scientists and researchers leverage Python for scientific computing tasks. Libraries like SciPy and
+                        scikit-learn facilitate numerical computations and machine learning applications in scientific
+                        research.
+                    </li>
+                    <li>
+                        <strong>Automation and Scripting:</strong>
+                        Python's simplicity and readability make it an excellent choice for automation and scripting tasks.
+                        It is widely used for writing scripts to automate repetitive processes and system administration
+                        tasks.
+                    </li>
+                </ul>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="What_you_should_already_know">
+            <header>What you should already know</header>
+            <article>
+                <p>This guide assumes you have the following basic background:</p>
+                <ul>
+                    <li>A general understanding of programming concepts.</li>
+                    <li>Familiarity with basic programming constructs like variables, loops, and functions.</li>
+                    <li>Some experience with another programming language is beneficial but not required.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <article>
+                <p>To get started with Python, you can write a simple "Hello World" program. Open a Python interpreter or create a Python script and write the following code:</p>
+                <code>
+                    print("Hello, World!")
+                </code>
+            </article>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables</header>
+            <article>
+                <p>In Python, variables are used to store and represent data. Variable names follow certain rules:
+
+                    A variable name must start with a letter or underscore (_), followed by letters, digits, or underscores.
+                    Python is case-sensitive, so "myVar" and "myvar" are different variables.
+                    You can assign a value to a variable using the assignment operator (=). For example:</p>
+                <code>x = 42</code>
+            </article>
+        </section>
+        <section class="main-section" id="Data_Types">
+            <header>Data Types</header>
+            <article>
+                <p>Python supports various data types, including:
+                    <strong>Numeric types:</strong><code>int, float, complex</code>
+                    <strong>Text type:</strong><code>str</code> 
+                    <strong>Boolean type:</strong><code>bool</code>
+                    <strong>Sequence types:</strong><code>list, tuple, range</code>
+                    <strong>Mapping type:</strong><code>dict</code>
+                    <strong>Set types:</strong><code>set, frozenset</code>
+                    <strong>NoneType:</strong><code>None</code>
+                    Python is dynamically typed, meaning you don't need to declare the data type explicitly.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Conditional_Statements_(if...else)">
+            <header>Conditional Statements (if...else)</header>
+            <article>
+                <p>Use the if statement to execute a block of code if a condition is true. You can also use the optional else clause to execute code when the condition is false. Example:</p>
+                <pre><code>
+x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+                </code></pre>
+            </article>
+        </section>
+        <section class="main-section" id="Loops_(while_and_for)">
+            <header>Loops (while and for)</header>
+            <article>
+                <p>Python supports both while and for loops. The while loop executes a block of code as long as a condition is true. Example:</p>
+                <pre><code>
+n = 0
+while n < 3:
+    print(n)
+    n += 1
+                </code></pre>
+                <p>The for loop iterates over a sequence (e.g., a list, tuple, or string). Example:</p>
+                <pre><code>
+for i in range(3):
+    print(i)
+                </code></pre>
+            </article>
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <article>
+                <p>A function in Python is defined using the def keyword, followed by the function name, parameters, and a colon. Example:</p>
+                <code>
+def greet(name):
+    print("Hello, " + name + "!")
+                </code></pre>
+                <p>You can call the function by passing arguments:</p>
+                <code>
+                    greet("World")
+                </code>
+                <p>This will print "Hello, World!".</p>
+            </article>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <article>
+                <p>
+                    This documentation provides a brief overview of Python basics. For detailed information and examples, refer to the Python official documentation and resources like the Python Tutorial on the <a href="https://www.python.org/doc/" target="_blank">Python website</a>.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

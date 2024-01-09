@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Michael Portfolio</title>
+  </head>
+  <body>
+    <header id="navbar">
+      <a href="#" class="logo">Michael Gichamu</a>
+      <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#welcome-section">About</a>
+          <a href="#projects">Portfolio</a>
+          <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <div class="home-image">
+        <img src="profile.png" alt="profile picture" loading="lazy" onload="this.style.opacity=1;">
+      </div>
+      <div class="home-content">
+        <h1>Hi, I'm Michael Gichamu</h1>
+        <h3>FullStack Developer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="home-sci">
+          <a href="#" aria-label="facebook"><i class='bx bxl-facebook'></i></a>
+          <a href="#" aria-label="twitter"><i class='bx bxl-twitter' ></i></a>
+          <a href="#" aria-label="instagram"><i class='bx bxl-instagram' ></i></a>
+          <a href="#" aria-label="linkedin"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <a href=" " class="btn">Download CV</a>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Portfolio</h1>
+      <div class="flex">
+        <div class="project-tile">
+          <a href="http://">
+            <h4 class="project-title">Michael Survey Form</h4>
+            <img src="Michael_survey_form.png" alt="Michael_survey_form">
+          </a>
+        </div>
+        <div class="project-tile">
+          <a href="http://">
+            <h4 class="project-title">Wangari Maathai Tribute</h4>
+            <img src="tribute_page.png" alt="wangari maathai tribute webpage">
+          </a>
+        </div>
+        <div class="project-tile">
+          <a href="http://">
+            <h4 class="project-title">Trombone product landing page</h4>
+            <img src="product_landing_page.png" alt="trombone product landing page">
+          </a>
+        </div>
+        <div class="project-tile">
+          <a href="http://">
+            <h4 class="project-title">Python Technical Documentation</h4>
+            <img src="technical_page.gif" alt="Python Technical Documentation">
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="profile">
+      <form id="contact" method="post">
+        <fieldset> 
+          <label id="name-label"><input id="name" type="name" placeholder="Enter your Name" required></label>
+          <label id="email-label"><input id="email" type="email" placeholder="Enter your Email" required></label>
+          <label id="subject-label"><input type="text" name="subject" id="subject" placeholder="Subject"></label>
+          <label id="message-label"><input type="textarea" id="message" name="message" placeholder="Message"></label>
+        </fieldset>  
+      </form>
+      <div class="home-sci">
+        <h1>Lets work together</h1>
+        <p>How do you take coffee ...</p>
+        <div id="profile-links">
+          <a href="#" aria-label="facebook"><i class='bx bxl-facebook'></i></a>
+          <a href="#" aria-label="twitter"><i class='bx bxl-twitter' ></i></a>
+          <a href="#" aria-label="instagram"><i class='bx bxl-instagram' ></i></a>
+          <a href="#" aria-label="linkedin"><i class='bx bxl-linkedin' ></i></a>
+          <a id="profile-link" href="https://github.com/Michael-Gichamu" aria-label="github" target='_blank'><i class='bx bxl-github'></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
